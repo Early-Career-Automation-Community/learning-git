@@ -58,6 +58,7 @@ git add README.md
 # Salvando o arquivo no repositório local
 
 ```shell
+# -m adiciona uma mensagem ao seu commit
 git commit -m "Meu primeiro commit no ECAC"
 ```
 
