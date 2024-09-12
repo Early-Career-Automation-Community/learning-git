@@ -89,3 +89,25 @@ Mas como eu faco para adicionar minhas mudancas no projeto original?
 É necessário abrir uma Pull Request (solicitacão de mudanca) para os donos do projeto.
 
 Eles vão analisar suas alteracões e avaliar se deve adicionar ou não.
+
+# Conceito de Issue
+
+Todo repositório Open Source possui área só para registrar **bugs e sugestões de melhorias**, costumamos chamar essa área de Issue.
+
+Então, todos os problemas ficam registrados nessa área onde você consegue visualizar os "tickets" que as pessoas abrem.
+
+É possível linkar esseas issues com suas mudancas. Por exemplo, você encontrou um bug em um projeto Open Source e decide resolver isso.
+
+Você abre uma issue no repositório, faz um fork do projeto e clona para sua máquina local.
+
+Após isso, você cria uma branch para a sua alteracão e comeca a trabalhar nesse problema.
+
+Em seguida, faz um push das suas alteracões para a branch que você criou.
+
+Agora é o momento de abrir um Pull Request no repositório Original e linkar suas mudancas com o ID da Issue.
+
+# Conceito de Pull Request
+
+Nada mais é do que uma solicitacão de alteracão, em projetos grandes, costumamos abrir uma PR (Pull Request) para adicionar algo ao código do projeto.
+
+Este momento de PR costuma ser avaliado pelos donos do repositório que verificam o seu código, podendo aprovar ou não essa sua requisicão de mudanca.
