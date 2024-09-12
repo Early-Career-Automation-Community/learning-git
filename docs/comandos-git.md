@@ -62,8 +62,40 @@ git add README.md
 git commit -m "Meu primeiro commit no ECAC"
 ```
 
-# TO-DO: Criar um repositório na nuvem e subir o seu arquivo para o GitHub
+# Criar um repositório na nuvem e subir o seu arquivo para o GitHub
 
+### Como criar um repositório na nuvem
 
+Na home page do Github, na sidebar do lado esquerda tem um botão verde como na imagem abaixo.
+Selecione este botão:
+
+<img src="../assets/github-new-repository-img.jpeg">
+
+Insira os dados do seu repositório e clique em "Create repository"
+
+<img src="../assets/create-repository.jpeg" width=50%>
+
+Com o repositório criado, você pode seguir as instrucões que estão no repositório para adicionar o seu conteúdo local para o repositório remoto (nuvem)
+
+<img src="../assets/instructions-repository.jpeg">
+
+### Subindo os arquivos para a nuvem (repositório na nuvem)
+
+```sh
+# Cria um arquivo Readme.md com o título de # repository-example
+echo "# repository-example" >> README.md
+# Inicializa o repositório
+git init
+# Adiciona o README ao repositório
+git add README.md
+# Adiciona uma mensagem ao seu commit
+git commit -m "first commit"
+# Define a branch do seu repositório
+git branch -M main
+# Faz o "link" do seu repositório local com a nuvem, desta forma, qualquer alteracão local que você realizar, poderá ser adicionada a nuvem (repositório remoto)
+git remote add origin git@github.com:matheustanaka/repository-example.git # Lembre-se de alterar este comando pelo o que for gerado pelo Github quando você criar seu repositório
+# Sobe as alteracões locais para a nuvem (repositório remoto)
+git push -u origin main
+```
 
 
