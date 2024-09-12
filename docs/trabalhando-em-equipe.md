@@ -111,3 +111,23 @@ Agora é o momento de abrir um Pull Request no repositório Original e linkar su
 Nada mais é do que uma solicitacão de alteracão, em projetos grandes, costumamos abrir uma PR (Pull Request) para adicionar algo ao código do projeto.
 
 Este momento de PR costuma ser avaliado pelos donos do repositório que verificam o seu código, podendo aprovar ou não essa sua requisicão de mudanca.
+
+# Fluxo de trabalho para Projetos Open Source
+
+1 - Fork o projeto.
+
+2 - Clone o fork para sua máquina.
+
+3 - Crie uma nova branch.
+
+4 - Faça as alterações necessárias.
+
+5 - Commite e faça push da branch para o seu fork no GitHub.
+
+6 - Abra uma pull request para o repositório original.
+
+7 - Aguarde a revisão e faça ajustes se necessário.
+
+8 - Mantenha seu fork sincronizado com o repositório original.
+
+
