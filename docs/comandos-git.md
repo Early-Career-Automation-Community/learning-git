@@ -25,6 +25,12 @@ git remote add origin https://github.com/seuusuario/meu_projeto.git
 
 # Utilizado para enviar seus commits locais para a nuvem
 git push
+
+# Utilizado para atualizar o repositório local com as mudancas que estão na nuvem
+git pull
+
+# Cria uma copia local de um repositório existente na nuvem. Este comando copia todos os arquivos/historico de commits do repositorio remoto para sua maquina local
+git clone <url-repositorio>
 ```
 
 # Criando um repositório Local
